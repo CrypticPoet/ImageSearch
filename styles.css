@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#searchForm {
+    margin: 5rem;
+}
+
+#searchForm input {
+    width: 100%;
+    margin-right: 2rem;
+    font-family: 'Raleway';
+}
+
+#searchForm button {
+    font-family: 'Raleway';
+}
+
+img[alt='loadingGif'] {
+    margin: 0 5rem;
+    width: 400px;
+}
+
+.image-container {
+    margin: 0 5rem;
+    column-count: 3;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .image-container {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 520px) {
+    .image-container {
+        column-count: 1;
+    }
+}
