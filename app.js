@@ -1,5 +1,5 @@
 // Get the form, imageContainer, the loadingGIF and API URL
-const form = document.getElementById('#searchForm');
+const form = document.getElementById('searchForm');
 const imageContainer = document.getElementsByClassName('image-container')[0];
 const loadingGif = document.getElementById('loadingGIF');
 const API_URL = 'https://nature-image-api.now.sh/search?q=';
